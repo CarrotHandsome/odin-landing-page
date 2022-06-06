@@ -18,6 +18,10 @@ a {
     text-decoration: none;    
 }
 
+h1 {
+    margin: 0;
+}
+
 .header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -42,11 +46,39 @@ a {
     font-size: 24px;
 }
 
-#links-image {
-    d
+#links-image {    
     
 }
 
 #image {
     width: 400px;
+}
+
+#information {
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   padding: 64px;
+   gap: 32px;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card-with-subtext {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card {    
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 16px;
+    flex: 0 0 150px;
 }
