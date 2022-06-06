@@ -2,11 +2,14 @@
     font-family: roboto, sans-serif;
 }
 
+body{
+    margin: 0;
+}
+
 ul {
     display: flex;
     list-style-type: none;
-    padding: 0;
-    margin: 0 0 0 auto;
+    padding: 0;    
     gap: 16px;
 }
 a {
@@ -14,22 +17,36 @@ a {
     color: #e5e7eb;
     text-decoration: none;    
 }
-h1 {
-    margin: 0;
-}
 
 .header {
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 32px 0 64px 0;
     display: flex;    
+    justify-content: center;
+    gap: 32px;
 }
 
-#logo-signup-container {
+.upper-container{
     display: flex;
     flex-direction: column;
+    flex: 0 0 500px;
+    gap: 128px;
 }
 
-#links-image-container {
-    display: flex;
-    flex-direction: column;
+#logo-signup {
+    
+}
+
+#logo {
+    font-size: 24px;
+}
+
+#links-image {
+    d
+    
+}
+
+#image {
+    width: 400px;
 }
