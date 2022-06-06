@@ -1,5 +1,6 @@
 * {
     font-family: roboto, sans-serif;
+    font-weight: 500;
 }
 
 body{
@@ -44,6 +45,11 @@ h1 {
 
 #logo {
     font-size: 24px;
+    font-weight: 900;
+}
+
+#hero-main {
+    font-weight: 900;
 }
 
 #links-image {    
@@ -60,6 +66,9 @@ h1 {
    align-items: center;
    padding: 64px;
    gap: 32px;
+}
+#info-title {
+    font-weight: 900;
 }
 
 #cards {
@@ -81,4 +90,30 @@ h1 {
     border-style: solid;
     border-radius: 16px;
     flex: 0 0 150px;
+}
+
+#quote {
+    color: #1f2937;
+    background-color: #e5e7eb;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+#quote-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 700px;
+}
+#quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+#thor {
+    font-size: 24px;
+    font-weight: 900;
+    font-style:normal;
+    margin-left: auto;
 }
